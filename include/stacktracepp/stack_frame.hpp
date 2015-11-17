@@ -25,8 +25,8 @@ public:
     const int& source_line() const;
     const std::string& function_name() const;
 
-    const unw_word_t& reg_ip() const;
-    const unw_word_t& offset() const;
+    const uint64_t& reg_ip() const;
+    const uint64_t& offset() const;
 
 private:
     stack_frame();
