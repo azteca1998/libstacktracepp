@@ -42,12 +42,12 @@ const std::string& stack_frame::function_name() const
     return _function_name;
 }
 
-const unw_word_t& stack_frame::reg_ip() const
+const uint64_t& stack_frame::reg_ip() const
 {
     return _ip;
 }
 
-const unw_word_t& stack_frame::offset() const
+const uint64_t& stack_frame::offset() const
 {
     return _offset;
 }
